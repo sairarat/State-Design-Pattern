@@ -35,3 +35,5 @@ Defines a uniform contract for all possible actions. Each concrete state must im
 
 ### 3. The Context (`VendingMachine`)
 The `VendingMachine` class maintains the machine's internal data (inventory) and a reference to the `currentState`. It delegates all user actions to the state object.
+
+![image](https://github.com/sairarat/State-Design-Pattern/blob/master/State%20Design%20Pattern%20UML.png)
